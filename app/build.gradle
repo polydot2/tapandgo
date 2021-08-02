@@ -23,14 +23,18 @@ android {
 
     buildTypes {
         def networkLoggerLevel = "NETWORK_LOGGER_LEVEL"
+        def biclooApiKey = "BICLOO_API_KEY"
+        def biclooWebService = "BICLOO_WEBSERVICE"
 
-        debug{
+        debug {
             signingConfig signingConfigs.debug
             applicationIdSuffix ".debug"
             versionNameSuffix "-debug"
             minifyEnabled false
             debuggable true
             buildConfigField "okhttp3.logging.HttpLoggingInterceptor.Level", networkLoggerLevel, "okhttp3.logging.HttpLoggingInterceptor.Level.BODY"
+            buildConfigField 'String', biclooWebService, "\"https://api.jcdecaux.com/vls/v3/\""
+            buildConfigField 'String', biclooApiKey, "\"de9c39d29d8f0d238504ac36ff4e7224f207afa2\""
         }
         release {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -38,6 +42,8 @@ android {
             minifyEnabled false
             debuggable false
             buildConfigField "okhttp3.logging.HttpLoggingInterceptor.Level", networkLoggerLevel, "okhttp3.logging.HttpLoggingInterceptor.Level.NONE"
+            buildConfigField 'String', biclooWebService, "\"https://api.jcdecaux.com/vls/v3/\""
+            buildConfigField 'String', biclooApiKey, "\"de9c39d29d8f0d238504ac36ff4e7224f207afa2\""
         }
     }
     compileOptions {
@@ -81,6 +87,7 @@ dependencies {
 
     // Google Map
     implementation "com.google.android.gms:play-services-maps:17.0.1"
+    implementation 'com.google.maps.android:android-maps-utils:0.5+'
 
     // Google location
     implementation 'com.google.android.gms:play-services-location:18.0.0'

@@ -3,6 +3,7 @@ package com.showcase.tapandgo.presentation.map
 import android.Manifest
 import android.annotation.SuppressLint
 import android.location.Location
+import android.widget.Toast
 import androidx.fragment.app.viewModels
 import com.fondesa.kpermissions.PermissionStatus
 import com.fondesa.kpermissions.allGranted
@@ -14,10 +15,17 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.MapStyleOptions
+import com.google.maps.android.clustering.Cluster
+import com.google.maps.android.clustering.ClusterManager
 import com.showcase.tapandgo.R
+import com.showcase.tapandgo.base.ApplicationError
 import com.showcase.tapandgo.base.BaseFragment
+import com.showcase.tapandgo.base.UiState
+import com.showcase.tapandgo.data.repository.dto.Station
 import com.showcase.tapandgo.databinding.FragmentMapBinding
 import dagger.hilt.android.AndroidEntryPoint
+
 
 @AndroidEntryPoint
 class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.fragment_map),
@@ -33,28 +41,91 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
     override val viewModel: MapViewModel by viewModels()
 
     private lateinit var map: GoogleMap
+    private var clusterManager: ClusterManager<MarkerClusterItem>? = null
 
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private lateinit var lastLocation: Location
 
     override fun onInit() {
-        fusedLocationClient =
-            LocationServices.getFusedLocationProviderClient(requireActivity())
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(requireActivity())
 
-        val mapFragment =
-            childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
-        mapFragment.getMapAsync(this);
+        val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
+        mapFragment.getMapAsync(this)
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
-        map = googleMap
-        map.uiSettings.isMyLocationButtonEnabled = false
+        initMap(googleMap)
 
         // if permissions are granted, center on user location now
         onPermissionsResult(permissionRequest.checkStatus())
-
         initCenterOnUserButton()
-        initMarkers()
+        fetchStations()
+    }
+
+    private fun initMap(googleMap: GoogleMap) {
+        map = googleMap
+        map.uiSettings.isMyLocationButtonEnabled = false
+        map.uiSettings.isMapToolbarEnabled = false
+        map.setMapStyle(
+            MapStyleOptions.loadRawResourceStyle(requireContext(), R.raw.map_style)
+        )
+
+        clusterManager = ClusterManager(requireContext(), map)
+        clusterManager?.renderer =
+            MarkerClusterRenderer(requireContext(), map, clusterManager)?.apply {
+                setOnClusterClickListener { onClusterClick(it) }
+                setOnClusterItemClickListener { onClusterItemClick(it) }
+            }
+
+        map.setOnCameraIdleListener(clusterManager)
+        map.setOnMarkerClickListener(clusterManager)
+    }
+
+    private fun onClusterItemClick(markerClusterItem: MarkerClusterItem): Boolean {
+
+        return false
+    }
+
+    private fun onClusterClick(cluster: Cluster<MarkerClusterItem>): Boolean {
+
+        return false
+    }
+
+    private fun onSuccess(uiModel: Any) {
+        (uiModel as? MapFragmentUiModel)?.let {
+            addMarkerOnMap(it.stations)
+        }
+    }
+
+    private fun addMarkerOnMap(stations: List<Station>) {
+        for (station in stations) {
+            val clusterItem = MarkerClusterItem(
+                LatLng(station.position.latitude, station.position.longitude),
+                station.name
+            )
+            clusterManager?.addItem(clusterItem)
+            clusterManager?.cluster()
+        }
+    }
+
+    private fun onError(error: ApplicationError) {
+        Toast.makeText(requireContext(), error.message, Toast.LENGTH_SHORT).show()
+    }
+
+    private fun onLoading() {
+    }
+
+    private fun fetchStations() {
+        viewModel.uiState.observe(viewLifecycleOwner, {
+            when (it) {
+                is UiState.Init -> onInit()
+                is UiState.Loading -> onLoading()
+                is UiState.Error -> onError(it.error)
+                is UiState.Success -> onSuccess(it.uiModel)
+            }
+        })
+
+        viewModel.retrieveBiclooLocations()
     }
 
     private fun initMarkers() {
@@ -87,7 +158,7 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
                 map.animateCamera(
                     CameraUpdateFactory.newLatLngZoom(
                         currentLatLng,
-                        12f
+                        16f
                     )
                 )
             }
