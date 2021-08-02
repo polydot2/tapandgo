@@ -79,6 +79,15 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$hilt_version"
     kapt "com.google.dagger:hilt-compiler:$hilt_version"
 
+    // Google Map
+    implementation "com.google.android.gms:play-services-maps:17.0.1"
+
+    // Google location
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+
+    // Permission
+    implementation 'com.github.fondesa:kpermissions:3.2.1'
+
     // MOSHI
     implementation "com.squareup.moshi:moshi:1.12.0"
     implementation "com.squareup.moshi:moshi-kotlin:1.11.0"
