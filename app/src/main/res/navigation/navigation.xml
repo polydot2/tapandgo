@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.showcase.tapandgo.presentation.map.MapFragment"
+        android:label="MapFragment"
+        tools:layout="@layout/fragment_map">
+        <action
+            android:id="@+id/action_mapFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.showcase.tapandgo.presentation.details.DetailsFragment"
+        android:label="DetailsFragment"
+        tools:layout="@layout/fragment_details" />
+</navigation>
