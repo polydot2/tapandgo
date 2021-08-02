@@ -64,30 +64,41 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
 
     private fun initMap(googleMap: GoogleMap) {
         map = googleMap
-        map.uiSettings.isMyLocationButtonEnabled = false
-        map.uiSettings.isMapToolbarEnabled = false
-        map.setMapStyle(
-            MapStyleOptions.loadRawResourceStyle(requireContext(), R.raw.map_style)
-        )
+        map.apply {
+            uiSettings.isMyLocationButtonEnabled = false
+            uiSettings.isMapToolbarEnabled = false
+            setMapStyle(MapStyleOptions.loadRawResourceStyle(requireContext(), R.raw.map_style))
+        }
 
         clusterManager = ClusterManager(requireContext(), map)
-        clusterManager?.renderer =
-            MarkerClusterRenderer(requireContext(), map, clusterManager)?.apply {
-                setOnClusterClickListener { onClusterClick(it) }
-                setOnClusterItemClickListener { onClusterItemClick(it) }
-            }
+        clusterManager?.apply {
+            renderer = MarkerClusterRenderer(requireContext(), map, clusterManager)
+            setOnClusterClickListener { onClusterClick(it) }
+            setOnClusterItemClickListener { onClusterItemClick(it) }
+        }
 
-        map.setOnCameraIdleListener(clusterManager)
-        map.setOnMarkerClickListener(clusterManager)
+        map.apply {
+            setOnCameraIdleListener(clusterManager)
+            setOnMarkerClickListener(clusterManager)
+            setOnMapClickListener { onMapClick() }
+            setOnCameraMoveStartedListener {
+                when (it) {
+                    GoogleMap.OnCameraMoveStartedListener.REASON_GESTURE -> onMapClick()
+                }
+            }
+        }
+    }
+
+    private fun onMapClick() {
+        binding.bottomSheet.hide()
     }
 
     private fun onClusterItemClick(markerClusterItem: MarkerClusterItem): Boolean {
-
+        binding.bottomSheet.show(markerClusterItem.station)
         return false
     }
 
     private fun onClusterClick(cluster: Cluster<MarkerClusterItem>): Boolean {
-
         return false
     }
 
@@ -101,7 +112,7 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
         for (station in stations) {
             val clusterItem = MarkerClusterItem(
                 LatLng(station.position.latitude, station.position.longitude),
-                station.name
+                station
             )
             clusterManager?.addItem(clusterItem)
             clusterManager?.cluster()
@@ -128,23 +139,11 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
         viewModel.retrieveBiclooLocations()
     }
 
-    private fun initMarkers() {
-        //it.setOnMarkerClickListener(this)
-
-        // Add a marker in Sydney and move the camera
-        /*val sydney = LatLng(-34.0, 151.0)
-        map?.addMarker(
-            MarkerOptions()
-                .position(sydney)
-                .title("Marker in Sydney")
-        )
-        map?.moveCamera(CameraUpdateFactory.newLatLng(sydney))*/
-    }
-
     private fun initCenterOnUserButton() {
         permissionRequest.addListener { onPermissionsResult(it) }
-        binding.findUser.setOnClickListener {
+        binding.centerOnUser.setOnClickListener {
             permissionRequest.send()
+            binding.bottomSheet.hide()
         }
     }
 
