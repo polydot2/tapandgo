@@ -1,6 +1,7 @@
 package com.showcase.tapandgo.base
 
 import android.app.Application
+import com.jakewharton.threetenabp.AndroidThreeTen
 import com.showcase.tapandgo.BuildConfig
 import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
@@ -10,6 +11,11 @@ class TapAndGoApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         initDebugConfiguration()
+        iniThreeTen()
+    }
+
+    private fun iniThreeTen() {
+        AndroidThreeTen.init(this);
     }
 
     private fun initDebugConfiguration() {

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <merge xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <merge
         android:id="@+id/root"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,11 +17,30 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:text="Station name"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:textColor="@color/white"
-            android:textSize="24sp"
+            android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/full"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Station name" />
+
+        <TextView
+            android:id="@+id/full"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/full"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -29,24 +48,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="10 vélos"
+            android:drawablePadding="4dp"
             android:textColor="@color/white"
             android:textSize="22sp"
+            app:drawableStartCompat="@drawable/ic_parking_svgrepo_com"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/name" />
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            tools:text="10 places" />
 
         <TextView
             android:id="@+id/bikes"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="8 places"
+            android:drawableStart="@drawable/ic_bike_svgrepo_com"
+            android:drawablePadding="4dp"
             android:textColor="@color/white"
             android:textSize="22sp"
-            app:layout_constraintBottom_toBottomOf="@id/main_stand"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/main_stand"
-            app:layout_constraintTop_toTopOf="@+id/main_stand" />
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            tools:text="8 vélos" />
 
         <TextView
             android:id="@+id/update"
@@ -54,11 +75,11 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:layout_marginBottom="16dp"
-            android:text="derniere mise à jour"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/main_stand" />
+            app:layout_constraintTop_toBottomOf="@id/main_stand"
+            tools:text="Derniere mise à jour: " />
 
     </merge>
 

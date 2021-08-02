@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Tap and go</string>
     <string name="center_on_user">Center on user</string>
-    <string name="stand">Stand %d</string>
-    <string name="bike">Velo %d</string>
+    <string name="stand">Stands %d</string>
+    <string name="bike">Vélos %d</string>
+    <string name="last_update">Dernière mise à jour: %s</string>
+    <string name="full">FULL</string>
 </resources>
