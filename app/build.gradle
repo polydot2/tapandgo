@@ -25,6 +25,7 @@ android {
         def networkLoggerLevel = "NETWORK_LOGGER_LEVEL"
         def biclooApiKey = "BICLOO_API_KEY"
         def biclooWebService = "BICLOO_WEBSERVICE"
+        def placesApiKey = "PLACES_API_KEY"
 
         debug {
             signingConfig signingConfigs.debug
@@ -35,6 +36,7 @@ android {
             buildConfigField "okhttp3.logging.HttpLoggingInterceptor.Level", networkLoggerLevel, "okhttp3.logging.HttpLoggingInterceptor.Level.BODY"
             buildConfigField 'String', biclooWebService, "\"https://api.jcdecaux.com/vls/v3/\""
             buildConfigField 'String', biclooApiKey, "\"de9c39d29d8f0d238504ac36ff4e7224f207afa2\""
+            buildConfigField "String", placesApiKey, "\"AIzaSyCndgr5Cx0uiVng5mmbt148Q98tAB8E8LE\""
         }
         release {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -44,6 +46,7 @@ android {
             buildConfigField "okhttp3.logging.HttpLoggingInterceptor.Level", networkLoggerLevel, "okhttp3.logging.HttpLoggingInterceptor.Level.NONE"
             buildConfigField 'String', biclooWebService, "\"https://api.jcdecaux.com/vls/v3/\""
             buildConfigField 'String', biclooApiKey, "\"de9c39d29d8f0d238504ac36ff4e7224f207afa2\""
+            buildConfigField "String", placesApiKey, "\"AIzaSyCndgr5Cx0uiVng5mmbt148Q98tAB8E8LE\""
         }
     }
     compileOptions {
@@ -92,6 +95,9 @@ dependencies {
     // Google location
     implementation 'com.google.android.gms:play-services-location:18.0.0'
 
+    // Google places
+    implementation 'com.google.android.libraries.places:places:2.4.0'
+
     // Permission
     implementation 'com.github.fondesa:kpermissions:3.2.1'
 
@@ -110,7 +116,7 @@ dependencies {
     implementation "com.squareup.retrofit2:retrofit:2.9.0"
 
     // Harold Coroutines
-    api "com.github.haroldadmin:NetworkResponseAdapter:4.0.1"
+    api "com.github.haroldadmin:NetworkResponseAdapter:4.1.0"
 
     // Coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3'
@@ -134,4 +140,8 @@ dependencies {
 
     // threetenabp
     implementation 'com.jakewharton.threetenabp:threetenabp:1.3.1'
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 }

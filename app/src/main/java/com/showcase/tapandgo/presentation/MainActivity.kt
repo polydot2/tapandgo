@@ -6,6 +6,7 @@ import com.showcase.tapandgo.base.BaseActivity
 import com.showcase.tapandgo.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
+
 @AndroidEntryPoint
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 

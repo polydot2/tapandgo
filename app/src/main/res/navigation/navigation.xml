@@ -12,11 +12,24 @@
         tools:layout="@layout/fragment_map">
         <action
             android:id="@+id/action_mapFragment_to_detailsFragment"
-            app:destination="@id/detailsFragment" />
+            app:destination="@id/destinationFragment" />
     </fragment>
     <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.showcase.tapandgo.presentation.details.DetailsFragment"
+        android:id="@+id/destinationFragment"
+        android:name="com.showcase.tapandgo.presentation.destination.DestinationFragment"
         android:label="DetailsFragment"
-        tools:layout="@layout/fragment_details" />
+        tools:layout="@layout/fragment_destination" >
+        <argument
+            android:name="from"
+            app:argType="com.google.android.gms.maps.model.LatLng" />
+        <argument
+            android:name="to"
+            app:argType="com.google.android.gms.maps.model.LatLng" />
+        <argument
+            android:name="station_departure"
+            app:argType="com.showcase.tapandgo.data.repository.dto.Station" />
+        <argument
+            android:name="stations_arrival"
+            app:argType="com.showcase.tapandgo.data.repository.dto.Station" />
+    </fragment>
 </navigation>

@@ -1,6 +1,7 @@
 package com.showcase.tapandgo.base
 
 import android.app.Application
+import com.google.android.libraries.places.api.Places
 import com.jakewharton.threetenabp.AndroidThreeTen
 import com.showcase.tapandgo.BuildConfig
 import dagger.hilt.android.HiltAndroidApp

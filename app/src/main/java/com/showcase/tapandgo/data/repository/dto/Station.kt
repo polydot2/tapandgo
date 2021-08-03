@@ -3,6 +3,7 @@ package com.showcase.tapandgo.data.repository.dto
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
+import java.io.Serializable
 
 @JsonClass(generateAdapter = true)
 data class Station(
@@ -30,10 +31,8 @@ data class Station(
     val overflowStands: OverflowStands?,
     @Json(name = "position")
     val position: Position,
-    @Json(name = "shape")
-    val shape: Any?,
     @Json(name = "status")
     val status: String,
     @Json(name = "totalStands")
     val totalStands: TotalStands
-)
+) : Serializable

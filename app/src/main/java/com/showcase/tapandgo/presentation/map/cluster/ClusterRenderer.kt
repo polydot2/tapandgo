@@ -1,4 +1,4 @@
-package com.showcase.tapandgo.presentation.map
+package com.showcase.tapandgo.presentation.map.cluster
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -16,30 +16,31 @@ import com.google.maps.android.clustering.ClusterManager
 import com.google.maps.android.clustering.view.DefaultClusterRenderer
 import com.showcase.tapandgo.databinding.ItemMarkerBinding
 
-class MarkerClusterRenderer<T : MarkerClusterItem?>(
+class ClusterRenderer(
     private val context: Context,
     googleMap: GoogleMap,
-    clusterManager: ClusterManager<T>?
-) : DefaultClusterRenderer<T>(context, googleMap, clusterManager) {
+    clusterManager: ClusterManager<MarkerClusterItem>,
+    private val makeCluster: Boolean = true
+) : DefaultClusterRenderer<MarkerClusterItem>(context, googleMap, clusterManager) {
 
-    override fun shouldRenderAsCluster(cluster: Cluster<T>): Boolean {
-        return cluster.size >= 3
+    override fun shouldRenderAsCluster(cluster: Cluster<MarkerClusterItem>): Boolean {
+        return makeCluster && cluster.size >= 3
     }
 
-    override fun onBeforeClusterItemRendered(item: T, markerOptions: MarkerOptions?) {
-/*        val markerDescriptor = BitmapDescriptorFactory.defaultMarker(
-            BitmapDescriptorFactory.HUE_ORANGE
-        )*/
+    override fun onBeforeClusterItemRendered(
+        item: MarkerClusterItem,
+        markerOptions: MarkerOptions?
+    ) {
         markerOptions?.icon(getIcon(item))
     }
 
-    private fun getIcon(item: T): BitmapDescriptor {
+    private fun getIcon(item: MarkerClusterItem): BitmapDescriptor {
         val height = 128
         val width = 128
 
         val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         val itemBinding = ItemMarkerBinding.inflate(inflater, null, false)
-        itemBinding.number.text = item?.station?.mainStands?.availabilities?.bikes.toString()
+        itemBinding.number.text = item.station?.mainStands?.availabilities?.bikes?.toString() ?: item.step
 
         // set the drawable on the marker
         val finalIcon = createBitmapFromView(itemBinding.root)

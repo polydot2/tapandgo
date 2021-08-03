@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">Tap and go</string>
     <string name="center_on_user">Center on user</string>
-    <string name="stand">Stands %d</string>
+    <string name="stand">Places %d</string>
     <string name="bike">Vélos %d</string>
     <string name="last_update">Dernière mise à jour: %s</string>
-    <string name="full">FULL</string>
+    <string name="smart_destination">Smart Destination</string>
+    <string name="go">GO</string>
+    <string name="destination">Destination</string>
+    <string name="pickup">Prendre un vélo</string>
+    <string name="dropoff">Déposer le vélo</string>
+    <string name="departure">Départ</string>
+    <string name="destination_input_hint">Destination</string>
 </resources>
