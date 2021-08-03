@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tap and go</string>
+    <string name="app_name">Tap &amp; Go</string>
     <string name="center_on_user">Center on user</string>
     <string name="stand">Places %d</string>
     <string name="bike">Vélos %d</string>
