@@ -27,11 +27,8 @@ class ClusterRenderer(
         return makeCluster && cluster.size >= 3
     }
 
-    override fun onBeforeClusterItemRendered(
-        item: MarkerClusterItem,
-        markerOptions: MarkerOptions?
-    ) {
-        markerOptions?.icon(getIcon(item))
+    override fun onBeforeClusterItemRendered(item: MarkerClusterItem, markerOptions: MarkerOptions) {
+        markerOptions.icon(getIcon(item))
     }
 
     private fun getIcon(item: MarkerClusterItem): BitmapDescriptor {
@@ -55,10 +52,7 @@ class ClusterRenderer(
     }
 
     private fun createBitmapFromView(v: View): Bitmap {
-        v.layoutParams = ConstraintLayout.LayoutParams(
-            RelativeLayout.LayoutParams.WRAP_CONTENT,
-            RelativeLayout.LayoutParams.WRAP_CONTENT
-        )
+        v.layoutParams = ConstraintLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT)
         v.measure(
             View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
             View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED)

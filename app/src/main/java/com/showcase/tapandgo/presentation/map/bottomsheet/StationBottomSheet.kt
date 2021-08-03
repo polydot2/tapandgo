@@ -19,20 +19,17 @@ class StationBottomSheet @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : ConstraintLayout(context, attrs, defStyleAttr) {
 
-    //private var binding: FragmentStationDetailBinding? = null
     private var bottomSheetBehavior: BottomSheetBehavior<View>? = null
     private var dateFormatter =
         DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT).withLocale(Locale.getDefault())
 
     init {
         inflate(context, R.layout.fragment_station_detail, this)
-        //binding = FragmentStationDetailBinding.bind(this)
     }
 
     override fun onAttachedToWindow() {
         super.onAttachedToWindow()
         bottomSheetBehavior = BottomSheetBehavior.from(this)
-        //binding = FragmentStationDetailBinding.bind(this)
         hide()
     }
 

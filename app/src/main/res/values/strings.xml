@@ -7,8 +7,8 @@
     <string name="smart_destination">Smart Destination</string>
     <string name="go">GO</string>
     <string name="destination">Destination</string>
-    <string name="pickup">Prendre un vélo</string>
-    <string name="dropoff">Déposer le vélo</string>
-    <string name="departure">Départ</string>
+    <string name="pickup">Station de départ</string>
+    <string name="dropoff">Station d\'arrivée</string>
+    <string name="departure">Adresse actuelle</string>
     <string name="destination_input_hint">Destination</string>
 </resources>

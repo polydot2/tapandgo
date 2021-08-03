@@ -12,43 +12,23 @@ import javax.inject.Inject
 class DestinationViewModel @Inject constructor(
 ) : BaseViewModel() {
 
-    fun getMapPreview(): Uri {
-        return Uri.Builder().scheme("https")
-            .authority("maps.googleapis.com")
-            .appendPath("maps")
-            .appendPath("api")
-            .appendPath("staticmap")
-            .appendQueryParameter("size", "512x512")
-            .appendQueryParameter("maptype", "roadmap")
-            .appendQueryParameter("key", BuildConfig.PLACES_API_KEY)
-            .build()
-    }
-
     fun getGoogleMapIntent(arguments: DestinationFragmentArgs): Intent {
         val packageName = "com.google.android.apps.maps"
-        val jsonURL = "https://maps.google.com/maps?"
-        val sBuf = StringBuffer(jsonURL)
-        sBuf.append("saddr=")
-        sBuf.append(arguments.from.latitude)
-        sBuf.append(',')
-        sBuf.append(arguments.from.longitude)
-        sBuf.append("&daddr=")
-        sBuf.append(arguments.stationDeparture.position.latitude)
-        sBuf.append(',')
-        sBuf.append(arguments.stationDeparture.position.longitude)
-        sBuf.append("+to:")
-        sBuf.append(arguments.stationsArrival.position.latitude)
-        sBuf.append(',')
-        sBuf.append(arguments.stationsArrival.position.longitude)
-        sBuf.append("+to:")
-        sBuf.append(arguments.to.latitude)
-        sBuf.append(',')
-        sBuf.append(arguments.to.longitude)
-        sBuf.append("&mode=BIKE");
-        sBuf.append("&key=")
-        sBuf.append(BuildConfig.PLACES_API_KEY)
+        val base = "https://maps.google.com/maps?saddr=%s,%s&daddr=%s,%s+to:%s,%s+to:%s,%s&mode=BIKE&key=%s"
+        val path = String.format(
+            base,
+            arguments.from.latitude,
+            arguments.from.longitude,
+            arguments.stationDeparture.position.latitude,
+            arguments.stationDeparture.position.longitude,
+            arguments.stationsArrival.position.latitude,
+            arguments.stationsArrival.position.longitude,
+            arguments.to.latitude,
+            arguments.to.longitude,
+            BuildConfig.PLACES_API_KEY
+        )
 
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(sBuf.toString()))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(path))
         return intent.setPackage(packageName)
     }
 }

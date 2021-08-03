@@ -1,5 +1,7 @@
 package com.showcase.tapandgo.presentation.destination
 
+import android.content.Context
+import android.location.Geocoder
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -17,6 +19,7 @@ import com.showcase.tapandgo.databinding.FragmentDestinationBinding
 import com.showcase.tapandgo.presentation.map.cluster.ClusterRenderer
 import com.showcase.tapandgo.presentation.map.cluster.MarkerClusterItem
 import dagger.hilt.android.AndroidEntryPoint
+import java.util.*
 
 
 @AndroidEntryPoint
@@ -82,19 +85,15 @@ class DestinationFragment :
     private fun centerMap(markers: Map<String, LatLng>) {
         val builder = LatLngBounds.Builder()
         markers.forEach { builder.include(it.value) }
-
         val bounds = builder.build()
-        val width = resources.displayMetrics.widthPixels
-        val height = resources.displayMetrics.heightPixels
-        val padding = (width * 0.10).toInt() // offset from edges of the map 10% of screen
-        val cu = CameraUpdateFactory.newLatLngBounds(bounds, width, height, padding)
+        val cu = CameraUpdateFactory.newLatLngBounds(bounds, 128)
         map.animateCamera(cu)
     }
 
     private fun initDetails() {
         binding.apply {
-            departure.text = arguments.from.toString()
-            arrival.text = arguments.to.toString()
+            departure.text = arguments.from.toLocationName(requireContext())
+            arrival.text = arguments.to.toLocationName(requireContext())
             pickupStation.text = arguments.stationDeparture.name
             dropoffStation.text = arguments.stationsArrival.name
         }
@@ -102,3 +101,7 @@ class DestinationFragment :
 }
 
 private fun Position.toLatLng(): LatLng = LatLng(this.latitude, this.longitude)
+private fun LatLng.toLocationName(context: Context): String? {
+    val geocoder = Geocoder(context, Locale.getDefault())
+    return geocoder.getFromLocation(this.latitude, this.longitude, 1).firstOrNull()?.getAddressLine(0)
+}
