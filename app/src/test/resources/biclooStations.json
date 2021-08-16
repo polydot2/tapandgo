@@ -1,0 +1,4962 @@
+[
+  {
+    "number": 10,
+    "contractName": "nantes",
+    "name": "010- PICASSO",
+    "address": "12, mail Pablo Picasso",
+    "position": {
+      "latitude": 47.216207,
+      "longitude": -1.533796
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:15Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 22,
+        "stands": 17,
+        "mechanicalBikes": 22,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 40
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 22,
+        "stands": 17,
+        "mechanicalBikes": 22,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 40
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 38,
+    "contractName": "nantes",
+    "name": "038-RICORDEAU",
+    "address": "Place Alexis-Ricordeau - Chaussée de la Madeleine",
+    "position": {
+      "latitude": 47.2121084631418,
+      "longitude": -1.55304912932047
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:25Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 26,
+        "stands": 14,
+        "mechanicalBikes": 26,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 40
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 26,
+        "stands": 14,
+        "mechanicalBikes": 26,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 40
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 66,
+    "contractName": "nantes",
+    "name": "066-CHANZY",
+    "address": "Face au 23, avenue Chanzy",
+    "position": {
+      "latitude": 47.2254298853335,
+      "longitude": -1.54799992590737
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:41Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 121,
+    "contractName": "nantes",
+    "name": "121-VICTOR RICHARD",
+    "address": "12, place Victor Richard",
+    "position": {
+      "latitude": 47.228614,
+      "longitude": -1.533329
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:14Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 9,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 9,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 3,
+    "contractName": "nantes",
+    "name": "003-STRASBOURG",
+    "address": "4, rue des Carmélites - Place Tirant Lo Blanc",
+    "position": {
+      "latitude": 47.2164797718207,
+      "longitude": -1.55154060534636
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:47:24Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 6,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 6,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 2,
+    "contractName": "nantes",
+    "name": "002-HÔTEL DE VILLE",
+    "address": "29, rue de Strasbourg",
+    "position": {
+      "latitude": 47.2185718130915,
+      "longitude": -1.55348429039295
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:05Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 14,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 14,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 62,
+    "contractName": "nantes",
+    "name": "062-GARE DE NANTES NORD 2",
+    "address": "22-23 boulevard de Stalingrad",
+    "position": {
+      "latitude": 47.218103,
+      "longitude": -1.541751
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:16Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 34,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 40
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 34,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 40
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 43,
+    "contractName": "nantes",
+    "name": "043-MACHINE DE L'ÎLE",
+    "address": "3, boulevard Léon Bureau",
+    "position": {
+      "latitude": 47.206918958696,
+      "longitude": -1.56480679078299
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:52Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 30,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 36
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 30,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 36
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 58,
+    "contractName": "nantes",
+    "name": "058-PALAIS DES SPORTS",
+    "address": "8, rue André Tardieu",
+    "position": {
+      "latitude": 47.208465,
+      "longitude": -1.536657
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:34Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 10,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 10,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 94,
+    "contractName": "nantes",
+    "name": "094-PETIT PORT",
+    "address": "Boulevard du Petit Port - place du 8 mai 1945",
+    "position": {
+      "latitude": 47.2432639149755,
+      "longitude": -1.55634461016798
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:43:16Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 13,
+        "stands": 7,
+        "mechanicalBikes": 13,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 13,
+        "stands": 7,
+        "mechanicalBikes": 13,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 84,
+    "contractName": "nantes",
+    "name": "084-RÉGION",
+    "address": "Rue de la Loire - place Gaston Defferre",
+    "position": {
+      "latitude": 47.2107421421814,
+      "longitude": -1.52593345192508
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:46Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 10,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 22
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 10,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 22
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 31,
+    "contractName": "nantes",
+    "name": "031-BOURSE",
+    "address": "Allée de la Bourse - Boulevard des Nations-Unies",
+    "position": {
+      "latitude": 47.2120830307532,
+      "longitude": -1.55908655123987
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:45:45Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 18,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 22
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 18,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 22
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 74,
+    "contractName": "nantes",
+    "name": "074-CANCLAUX",
+    "address": "8, place Canclaux",
+    "position": {
+      "latitude": 47.2143336608893,
+      "longitude": -1.57492461719297
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:47:57Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 8,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 8,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 117,
+    "contractName": "nantes",
+    "name": "117-MAIRIE DE CHANTENAY",
+    "address": "Place de la Liberté",
+    "position": {
+      "latitude": 47.20656,
+      "longitude": -1.58785
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:40Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 4,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 4,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 72,
+    "contractName": "nantes",
+    "name": "072-BELLAMY-GUÉ MOREAU",
+    "address": "138, rue Paul Bellamy",
+    "position": {
+      "latitude": 47.2286256905746,
+      "longitude": -1.56180639301113
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:17Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 5,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 5,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 40,
+    "contractName": "nantes",
+    "name": "040-MADELEINE",
+    "address": "Quai Moncousu - Pont Général Audibert",
+    "position": {
+      "latitude": 47.2088046424378,
+      "longitude": -1.55041191411915
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:21Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 9,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 9,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 22,
+    "contractName": "nantes",
+    "name": "022-MOQUECHIEN",
+    "address": "8, rue Moquechien - 17, allée des Tanneurs",
+    "position": {
+      "latitude": 47.220392126692,
+      "longitude": -1.55553104193626
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:56Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 13,
+        "stands": 7,
+        "mechanicalBikes": 13,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 13,
+        "stands": 7,
+        "mechanicalBikes": 13,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 19,
+    "contractName": "nantes",
+    "name": "019-SAINT SIMILIEN",
+    "address": "1, place Saint Similien",
+    "position": {
+      "latitude": 47.21985446733,
+      "longitude": -1.55892089047478
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:00Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 11,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 11,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 106,
+    "contractName": "nantes",
+    "name": "106-GARENNES",
+    "address": "2, rue des Garennes",
+    "position": {
+      "latitude": 47.202127,
+      "longitude": -1.5787
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:13Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 5,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 5,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 51,
+    "contractName": "nantes",
+    "name": "051-TABARLY",
+    "address": "5, boulevard de Berlin",
+    "position": {
+      "latitude": 47.2141946314965,
+      "longitude": -1.52973588598036
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:36Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 8,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 8,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 89,
+    "contractName": "nantes",
+    "name": "089-SAINT-AIGNAN",
+    "address": "65, boulevard Saint-Aignan",
+    "position": {
+      "latitude": 47.2074386375471,
+      "longitude": -1.57868926431099
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:23Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 10,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 10,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 112,
+    "contractName": "nantes",
+    "name": "112-PÔLE SOCIAL MARION CAHOUR",
+    "address": "10, rue Marion Cahour - REZÉ",
+    "position": {
+      "latitude": 47.188684,
+      "longitude": -1.567201
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:47:22Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 6,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 6,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 77,
+    "contractName": "nantes",
+    "name": "077-ÉCOLE D'ARCHITECTURE",
+    "address": "6, quai François Mitterrand",
+    "position": {
+      "latitude": 47.2076056402121,
+      "longitude": -1.55753246791432
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:02Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 24,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 32
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 24,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 32
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 42,
+    "contractName": "nantes",
+    "name": "042-GARE MARITIME",
+    "address": "Quai Ernest Renaud - Place Jacksonville",
+    "position": {
+      "latitude": 47.2065977289879,
+      "longitude": -1.5726102869705
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:17Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 11,
+        "stands": 17,
+        "mechanicalBikes": 11,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 28
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 11,
+        "stands": 17,
+        "mechanicalBikes": 11,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 28
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 87,
+    "contractName": "nantes",
+    "name": "087-ANATOLE FRANCE",
+    "address": "41, rue Alexandre Dumas - Place Anatole France",
+    "position": {
+      "latitude": 47.2236048153991,
+      "longitude": -1.57137357811241
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:40Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 9,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 9,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 47,
+    "contractName": "nantes",
+    "name": "047-MARTYRS NANTAIS",
+    "address": "1, boulevard des Martyrs Nantais de la Résistance",
+    "position": {
+      "latitude": 47.206933,
+      "longitude": -1.548169
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:04Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 20,
+        "stands": 7,
+        "mechanicalBikes": 20,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 27
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 20,
+        "stands": 7,
+        "mechanicalBikes": 20,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 27
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 109,
+    "contractName": "nantes",
+    "name": "109-CLOS TOREAU",
+    "address": "Face 31, boulevard Emile Gabory",
+    "position": {
+      "latitude": 47.19426,
+      "longitude": -1.529313
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:31Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 10,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 10,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 102,
+    "contractName": "nantes",
+    "name": "102-GARE DE PONT ROUSSEAU",
+    "address": "Rue de la Gare - REZÉ",
+    "position": {
+      "latitude": 47.19316,
+      "longitude": -1.549212
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:43:39Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 16,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 16,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 113,
+    "contractName": "nantes",
+    "name": "113-MAIRIE DE REZÉ",
+    "address": "Place Jean-Baptiste Daviais - REZÉ",
+    "position": {
+      "latitude": 47.191117,
+      "longitude": -1.569362
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:28Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 11,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 11,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 97,
+    "contractName": "nantes",
+    "name": "097-SAINT DONATIEN",
+    "address": "Place du 51ème Régiment d'Artillerie",
+    "position": {
+      "latitude": 47.2290880870929,
+      "longitude": -1.54029259428922
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:24Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 12,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 12,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 56,
+    "contractName": "nantes",
+    "name": "056-VINCENT GACHE",
+    "address": "9, rue François Albert",
+    "position": {
+      "latitude": 47.2067986185753,
+      "longitude": -1.54177773985064
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:33Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 4,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 4,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 110,
+    "contractName": "nantes",
+    "name": "110-AUDITORIUM",
+    "address": "1, avenue de Bretagne - REZÉ",
+    "position": {
+      "latitude": 47.185402,
+      "longitude": -1.554025
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:27Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 8,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 8,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 7,
+    "contractName": "nantes",
+    "name": "007-BARILLERIE",
+    "address": "2, allée Penthièvre",
+    "position": {
+      "latitude": 47.2153313580104,
+      "longitude": -1.55612612597517
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:59Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 21,
+        "stands": 9,
+        "mechanicalBikes": 21,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 30
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 21,
+        "stands": 9,
+        "mechanicalBikes": 21,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 30
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 27,
+    "contractName": "nantes",
+    "name": "027-GUIST'HAU NORD",
+    "address": "42, boulevard Gabriel Guist'Hau",
+    "position": {
+      "latitude": 47.2179298163251,
+      "longitude": -1.56917188330244
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:31Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 5,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 5,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 15,
+    "contractName": "nantes",
+    "name": "015-ARISTIDE BRIAND",
+    "address": "Place Aristide Briand",
+    "position": {
+      "latitude": 47.2171848232902,
+      "longitude": -1.56298679328837
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:37Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 0,
+        "stands": 17,
+        "mechanicalBikes": 0,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 17
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 0,
+        "stands": 17,
+        "mechanicalBikes": 0,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 17
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 83,
+    "contractName": "nantes",
+    "name": "083-MILLERAND",
+    "address": "9, boulevard Alexandre Millerand - 28, boulevard Georges Pompidou",
+    "position": {
+      "latitude": 47.2081996450388,
+      "longitude": -1.53018043595997
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:47:55Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 10,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 10,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 45,
+    "contractName": "nantes",
+    "name": "045-PRAIRIE AU DUC",
+    "address": "25, boulevard de la Prairie au Duc",
+    "position": {
+      "latitude": 47.2047839355992,
+      "longitude": -1.55892310936669
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:46Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 11,
+        "stands": 2,
+        "mechanicalBikes": 11,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 13
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 11,
+        "stands": 2,
+        "mechanicalBikes": 11,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 13
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 34,
+    "contractName": "nantes",
+    "name": "034-MÉDIATHÈQUE",
+    "address": "24, quai de la Fosse",
+    "position": {
+      "latitude": 47.2108869258159,
+      "longitude": -1.56174490565258
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:36Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 14,
+        "stands": 11,
+        "mechanicalBikes": 14,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 25
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 14,
+        "stands": 11,
+        "mechanicalBikes": 14,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 25
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 123,
+    "contractName": "nantes",
+    "name": "123-TRARIEUX",
+    "address": "3, place Gabriel Trarieux",
+    "position": {
+      "latitude": 47.225957,
+      "longitude": -1.522334
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:11Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 7,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 7,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 103,
+    "contractName": "nantes",
+    "name": "103-GRUE JAUNE",
+    "address": "Grue Jaune - Face au mail des Chantiers",
+    "position": {
+      "latitude": 47.204879,
+      "longitude": -1.569191
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:41Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 14,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 14,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 115,
+    "contractName": "nantes",
+    "name": "115-TRENTEMOULT",
+    "address": "Face 11, quai Marcel Boissard - Trentemoult - REZÉ",
+    "position": {
+      "latitude": 47.195308,
+      "longitude": -1.581806
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:07Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 18,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 26
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 18,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 26
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 122,
+    "contractName": "nantes",
+    "name": "122-MITRIE",
+    "address": "5, route de Sainte Luce",
+    "position": {
+      "latitude": 47.22865,
+      "longitude": -1.526193
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:41Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 18,
+    "contractName": "nantes",
+    "name": "018-VIARME",
+    "address": "23, place Viarme",
+    "position": {
+      "latitude": 47.2214293389855,
+      "longitude": -1.56330836686976
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:15Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 4,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 4,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 91,
+    "contractName": "nantes",
+    "name": "091-ROND POINT DE VANNES",
+    "address": "65, boulevard Lelasseur",
+    "position": {
+      "latitude": 47.2295806053692,
+      "longitude": -1.57211457799373
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:58Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 8,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 18
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 8,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 18
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 46,
+    "contractName": "nantes",
+    "name": "046-RÉPUBLIQUE",
+    "address": "3, place de la République",
+    "position": {
+      "latitude": 47.2053240902952,
+      "longitude": -1.55518310791618
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:09Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 14,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 26
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 14,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 26
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 95,
+    "contractName": "nantes",
+    "name": "095-MICHELET",
+    "address": "50, boulevard Michelet",
+    "position": {
+      "latitude": 47.235158,
+      "longitude": -1.556322
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:19Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 16,
+        "stands": 9,
+        "mechanicalBikes": 16,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 26
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 16,
+        "stands": 9,
+        "mechanicalBikes": 16,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 26
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 20,
+    "contractName": "nantes",
+    "name": "020-BOUFFAY",
+    "address": "7, allée du Port Maillard - Cours Franklin Roosevelt",
+    "position": {
+      "latitude": 47.214301,
+      "longitude": -1.552782
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:23Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 13,
+        "stands": 1,
+        "mechanicalBikes": 13,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 13,
+        "stands": 1,
+        "mechanicalBikes": 13,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 85,
+    "contractName": "nantes",
+    "name": "085-BEL AIR",
+    "address": "102, rue Paul Bellamy",
+    "position": {
+      "latitude": 47.2263944309861,
+      "longitude": -1.56002281967663
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:47:37Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 5,
+        "stands": 9,
+        "mechanicalBikes": 5,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 5,
+        "stands": 9,
+        "mechanicalBikes": 5,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 81,
+    "contractName": "nantes",
+    "name": "081-MANGIN",
+    "address": "Devant le 8, place Mangin",
+    "position": {
+      "latitude": 47.2009555172397,
+      "longitude": -1.54550725123162
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:52Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 11,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 11,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 55,
+    "contractName": "nantes",
+    "name": "055-MAGELLAN",
+    "address": "11, rue de Belfort",
+    "position": {
+      "latitude": 47.2107814065594,
+      "longitude": -1.54429847094521
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:12Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 5,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 17
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 5,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 17
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 78,
+    "contractName": "nantes",
+    "name": "078-DE GAULLE",
+    "address": "7, rue Françoise Giroud - Boulevard Général de Gaulle",
+    "position": {
+      "latitude": 47.2084436771829,
+      "longitude": -1.54051448829019
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:45:49Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 15,
+        "stands": 5,
+        "mechanicalBikes": 15,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 15,
+        "stands": 5,
+        "mechanicalBikes": 15,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 67,
+    "contractName": "nantes",
+    "name": "067-WALDECK ROUSSEAU",
+    "address": "Place Waldeck Rousseau - Pont Général de la Motte Rouge",
+    "position": {
+      "latitude": 47.2277747610651,
+      "longitude": -1.55214798607222
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:43Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 18,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 22
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 18,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 22
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 92,
+    "contractName": "nantes",
+    "name": "092-ROND POINT DE RENNES",
+    "address": "Angle boulevard Lelasseur - Rue Paul Bellamy",
+    "position": {
+      "latitude": 47.2330281847759,
+      "longitude": -1.56605906933562
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:55Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 6,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 6,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 59,
+    "contractName": "nantes",
+    "name": "059-STADE SAUPIN",
+    "address": "35, quai de Malakoff",
+    "position": {
+      "latitude": 47.213682,
+      "longitude": -1.540181
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:14Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 11,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 24
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 11,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 24
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 53,
+    "contractName": "nantes",
+    "name": "053-OLIVETTES",
+    "address": "10, rue des Olivettes",
+    "position": {
+      "latitude": 47.2117363932221,
+      "longitude": -1.54988602493776
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:47Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 12,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 12,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 57,
+    "contractName": "nantes",
+    "name": "057-GAËTAN RONDEAU",
+    "address": "20, rue Gaëtan Rondeau",
+    "position": {
+      "latitude": 47.2053961321791,
+      "longitude": -1.53758186300399
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:59Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 17,
+        "stands": 3,
+        "mechanicalBikes": 17,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 17,
+        "stands": 3,
+        "mechanicalBikes": 17,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 76,
+    "contractName": "nantes",
+    "name": "076-RENÉ BOUHIER",
+    "address": "8, place René Bouhier",
+    "position": {
+      "latitude": 47.2094290925244,
+      "longitude": -1.57051533628071
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:34Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 13,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 13,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 8,
+    "contractName": "nantes",
+    "name": "008-BOUCHERIE",
+    "address": "4, rue de la Boucherie",
+    "position": {
+      "latitude": 47.2162008925882,
+      "longitude": -1.55711168019757
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:20Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 20,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 24
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 20,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 24
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 79,
+    "contractName": "nantes",
+    "name": "079-MALAKOFF",
+    "address": "15, quai de Malakoff",
+    "position": {
+      "latitude": 47.213395,
+      "longitude": -1.536954
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:55Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 75,
+    "contractName": "nantes",
+    "name": "075-LAMORICIÈRE",
+    "address": "14 bis, rue Lamoricière - Place Beaumanoir",
+    "position": {
+      "latitude": 47.212308958847,
+      "longitude": -1.57136936022191
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:26Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 5,
+        "stands": 10,
+        "mechanicalBikes": 5,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 5,
+        "stands": 10,
+        "mechanicalBikes": 5,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 116,
+    "contractName": "nantes",
+    "name": "116-LIBERTÉ",
+    "address": "Rond-Point de Louisiane",
+    "position": {
+      "latitude": 47.198124,
+      "longitude": -1.588395
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:43:25Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 14,
+        "stands": 6,
+        "mechanicalBikes": 14,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 14,
+        "stands": 6,
+        "mechanicalBikes": 14,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 73,
+    "contractName": "nantes",
+    "name": "073-SARRADIN",
+    "address": "4, place Emile Sarradin",
+    "position": {
+      "latitude": 47.2208824330189,
+      "longitude": -1.57043859807393
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:42:26Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 4,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 13
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 4,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 13
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 49,
+    "contractName": "nantes",
+    "name": "049-DUCHESSE ANNE",
+    "address": "2, place de la Duchesse Anne",
+    "position": {
+      "latitude": 47.2167,
+      "longitude": -1.547253
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:57Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 9,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 9,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 25,
+    "contractName": "nantes",
+    "name": "025-DALBY",
+    "address": "61, boulevard Ernest Dalby",
+    "position": {
+      "latitude": 47.223508869812,
+      "longitude": -1.52995959270347
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:35Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 9,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 9,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 93,
+    "contractName": "nantes",
+    "name": "093-FACULTÉS",
+    "address": "A l'angle route de la Jonelière -  Boulevard Guy Mollet",
+    "position": {
+      "latitude": 47.2462980684235,
+      "longitude": -1.5553090111073
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:48Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 20,
+        "stands": 20,
+        "mechanicalBikes": 20,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 40
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 20,
+        "stands": 20,
+        "mechanicalBikes": 20,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 40
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 44,
+    "contractName": "nantes",
+    "name": "044-PALAIS DE JUSTICE",
+    "address": "19, quai François Mitterand - 1, rue Olympe de Gouges",
+    "position": {
+      "latitude": 47.2083172884415,
+      "longitude": -1.5611730779894
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:42:39Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 21,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 31
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 21,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 31
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 48,
+    "contractName": "nantes",
+    "name": "048-VERDUN",
+    "address": "15, rue de Verdun",
+    "position": {
+      "latitude": 47.2175053746786,
+      "longitude": -1.55184978437031
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:50Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 5,
+        "stands": 7,
+        "mechanicalBikes": 5,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 5,
+        "stands": 7,
+        "mechanicalBikes": 5,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 1,
+    "contractName": "nantes",
+    "name": "001-PRÉFECTURE",
+    "address": "6, quai Ceineray",
+    "position": {
+      "latitude": 47.2202551837245,
+      "longitude": -1.55408380740881
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:45:45Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 21,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 28
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 21,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 28
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 104,
+    "contractName": "nantes",
+    "name": "104-ANTILLES",
+    "address": "20, quai des Antilles",
+    "position": {
+      "latitude": 47.202547,
+      "longitude": -1.572325
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:21Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 20,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 24
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 20,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 24
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 99,
+    "contractName": "nantes",
+    "name": "099-ST JACQUES",
+    "address": "ST JACQUES - RUE ST JACQUES",
+    "position": {
+      "latitude": 47.1958989090141,
+      "longitude": -1.5365406634647
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:14Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 108,
+    "contractName": "nantes",
+    "name": "108-BONNE GARDE",
+    "address": "Face 97, rue Bonne Garde",
+    "position": {
+      "latitude": 47.197217,
+      "longitude": -1.532105
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:38Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 11,
+        "stands": 10,
+        "mechanicalBikes": 11,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 24
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 11,
+        "stands": 10,
+        "mechanicalBikes": 11,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 24
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 23,
+    "contractName": "nantes",
+    "name": "023-BUAT",
+    "address": "118, rue de Coulmiers",
+    "position": {
+      "latitude": 47.2271454682246,
+      "longitude": -1.5424047412504
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:16Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 8,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 11
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 8,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 11
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 80,
+    "contractName": "nantes",
+    "name": "080-VICTOR HUGO",
+    "address": "25, boulevard Victor Hugo - 28, boulevard Gustave Roch",
+    "position": {
+      "latitude": 47.2040032084911,
+      "longitude": -1.5515484848032
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:16Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 13,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 13,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 118,
+    "contractName": "nantes",
+    "name": "118-ÉGALITÉ",
+    "address": "Boulevard Léon Jouhaux",
+    "position": {
+      "latitude": 47.209661,
+      "longitude": -1.589002
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:59Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 6,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 6,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 90,
+    "contractName": "nantes",
+    "name": "090-PROCÉ",
+    "address": "Angle boulevard Gaston Serpette - Boulevard Auguste Pageot",
+    "position": {
+      "latitude": 47.2241950617326,
+      "longitude": -1.57661284372726
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:43:40Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 8,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 8,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 61,
+    "contractName": "nantes",
+    "name": "061-LIEU UNIQUE",
+    "address": "23, quai Ferdinand Favre",
+    "position": {
+      "latitude": 47.2155914639598,
+      "longitude": -1.54590593911211
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:21Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 8,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 8,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 32,
+    "contractName": "nantes",
+    "name": "032-FOCH",
+    "address": "Place Foch",
+    "position": {
+      "latitude": 47.2192484,
+      "longitude": -1.550185
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:02Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 7,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 7,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 17,
+    "contractName": "nantes",
+    "name": "017-SAINTE ÉLISABETH",
+    "address": "4, place Sainte Elisabeth",
+    "position": {
+      "latitude": 47.2192139526135,
+      "longitude": -1.56157014764171
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:29Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 6,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 6,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 29,
+    "contractName": "nantes",
+    "name": "029-DUGUAY TROUIN",
+    "address": "7, allée Duguay Trouin",
+    "position": {
+      "latitude": 47.212727,
+      "longitude": -1.557681
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:14Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 5,
+        "stands": 22,
+        "mechanicalBikes": 5,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 27
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 5,
+        "stands": 22,
+        "mechanicalBikes": 5,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 27
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 21,
+    "contractName": "nantes",
+    "name": "021-TALENSAC SUD",
+    "address": "6, rue Talensac",
+    "position": {
+      "latitude": 47.2211433291291,
+      "longitude": -1.55647633932779
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:15Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 6,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 16
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 6,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 16
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 50,
+    "contractName": "nantes",
+    "name": "050-CHÂTEAU",
+    "address": "7, rue des Etats",
+    "position": {
+      "latitude": 47.2151496951626,
+      "longitude": -1.55022624256337
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:47:40Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 12,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 16
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 12,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 16
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 37,
+    "contractName": "nantes",
+    "name": "037-FÉLIX ÉBOUÉ",
+    "address": "1, allée de l'Île Gloriette",
+    "position": {
+      "latitude": 47.211465063355,
+      "longitude": -1.5568245371939
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:33Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 18,
+        "stands": 9,
+        "mechanicalBikes": 18,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 27
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 18,
+        "stands": 9,
+        "mechanicalBikes": 18,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 27
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 71,
+    "contractName": "nantes",
+    "name": "071-TALENSAC NORD",
+    "address": "18, rue Talensac - 26, rue de Bel Air",
+    "position": {
+      "latitude": 47.2218536381884,
+      "longitude": -1.55894074669074
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:45Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 0,
+        "stands": 13,
+        "mechanicalBikes": 0,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 0,
+        "stands": 13,
+        "mechanicalBikes": 0,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 86,
+    "contractName": "nantes",
+    "name": "086-HAUTS PAVÉS",
+    "address": "Rue de Berry - Rue des Hauts Pavés",
+    "position": {
+      "latitude": 47.2254706269804,
+      "longitude": -1.56750184250227
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:42:48Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 7,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 16
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 7,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 16
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 41,
+    "contractName": "nantes",
+    "name": "041-BRUNELIÈRE",
+    "address": "88, quai de la Fosse",
+    "position": {
+      "latitude": 47.208905,
+      "longitude": -1.56823
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:09Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 13,
+        "stands": 2,
+        "mechanicalBikes": 13,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 13,
+        "stands": 2,
+        "mechanicalBikes": 13,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 12,
+    "contractName": "nantes",
+    "name": "012-DELORME",
+    "address": "1, boulevard Gabriel Guist'Hau - Place Delorme",
+    "position": {
+      "latitude": 47.2151581886857,
+      "longitude": -1.56390067346586
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:42:26Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 18,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 18,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 98,
+    "contractName": "nantes",
+    "name": "098-HUIT MAI",
+    "address": "Avenue de la Libération - rue Eugène Pottier - REZÉ",
+    "position": {
+      "latitude": 47.189212047513,
+      "longitude": -1.55082803645635
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:43:18Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 26,
+    "contractName": "nantes",
+    "name": "026-GUIST'HAU SUD",
+    "address": "30, boulevard Gabriel Guist'Hau - Rue Harouys",
+    "position": {
+      "latitude": 47.2168279599745,
+      "longitude": -1.56700452626517
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:57Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 6,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 6,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 111,
+    "contractName": "nantes",
+    "name": "111-DIDEROT",
+    "address": "Avenue de la Vendée - Face à l'Espace Diderot - REZÉ",
+    "position": {
+      "latitude": 47.184491,
+      "longitude": -1.562532
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:47:09Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 15,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 15,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 52,
+    "contractName": "nantes",
+    "name": "052-BACO",
+    "address": "8, allée Baco",
+    "position": {
+      "latitude": 47.2143275245891,
+      "longitude": -1.54875055574198
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:41Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 11,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 11,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 120,
+    "contractName": "nantes",
+    "name": "120-ROND-POINT DE PARIS",
+    "address": "16, boulevard Jules Verne",
+    "position": {
+      "latitude": 47.234853,
+      "longitude": -1.534981
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:26Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 21,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 30
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 21,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 30
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 39,
+    "contractName": "nantes",
+    "name": "039-QUAI MONCOUSU",
+    "address": "1, quai Moncousu - Pont Haudaudine",
+    "position": {
+      "latitude": 47.2094065738737,
+      "longitude": -1.55523314463147
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:21Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 16,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 24
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 16,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 24
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 35,
+    "contractName": "nantes",
+    "name": "035-JEAN V",
+    "address": "Place Jean V",
+    "position": {
+      "latitude": 47.2123685630664,
+      "longitude": -1.56497287562598
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:43:07Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 12,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 12,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 11,
+    "contractName": "nantes",
+    "name": "011-CALVAIRE",
+    "address": "8, rue du Calvaire - Place des Volontaires de la Défense Passive",
+    "position": {
+      "latitude": 47.2155789424271,
+      "longitude": -1.56067528370012
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:24Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 5,
+        "stands": 10,
+        "mechanicalBikes": 5,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 5,
+        "stands": 10,
+        "mechanicalBikes": 5,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 101,
+    "contractName": "nantes",
+    "name": "101-PIRMIL",
+    "address": "13, rue Esnoul des Châtelets",
+    "position": {
+      "latitude": 47.1965313642396,
+      "longitude": -1.54156809120326
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:38Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 13,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 28
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 12,
+        "stands": 13,
+        "mechanicalBikes": 12,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 28
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 119,
+    "contractName": "nantes",
+    "name": "119-ZOLA",
+    "address": "Place Emile Zola",
+    "position": {
+      "latitude": 47.213859,
+      "longitude": -1.586108
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:17Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 16,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 25
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 16,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 25
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 125,
+    "contractName": "nantes",
+    "name": "125-PLACIS",
+    "address": "Avenue de la Martellière - SAINT-SÉBASTIEN-SUR-LOIRE",
+    "position": {
+      "latitude": 47.199378,
+      "longitude": -1.520481
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:20Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 7,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 18
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 7,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 18
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 63,
+    "contractName": "nantes",
+    "name": "063-JARDIN DES PLANTES",
+    "address": "Rue Stanislas Baudry  - face rue Georges Clémenceau",
+    "position": {
+      "latitude": 47.219834197319,
+      "longitude": -1.54471896453159
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:45:28Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 11,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 11,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 16,
+    "contractName": "nantes",
+    "name": "016-ÉDOUARD NORMAND",
+    "address": "Face au 7, place Edouard Normand",
+    "position": {
+      "latitude": 47.2190275447384,
+      "longitude": -1.56341948405375
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:49Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 11,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 11,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 100,
+    "contractName": "nantes",
+    "name": "100-GRÉNERAIE",
+    "address": "Parc de la Gréneraie - NANTES",
+    "position": {
+      "latitude": 47.1999230929052,
+      "longitude": -1.53471754047048
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:45:48Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 12,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 12,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 88,
+    "contractName": "nantes",
+    "name": "088-MELLINET",
+    "address": "1, boulevard Allard - Place Général Mellinet",
+    "position": {
+      "latitude": 47.2115010701178,
+      "longitude": -1.57717541432178
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:27Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 13,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 13,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 70,
+    "contractName": "nantes",
+    "name": "070-GARE DE NANTES SUD",
+    "address": "Quai de Malakoff - Canal Saint-Félix",
+    "position": {
+      "latitude": 47.215505,
+      "longitude": -1.542844
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:25Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 63,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 70
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 63,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 70
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 4,
+    "contractName": "nantes",
+    "name": "004-MOULIN",
+    "address": "18, rue du Moulin",
+    "position": {
+      "latitude": 47.2166675820152,
+      "longitude": -1.5543847138777
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:43:15Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 7,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 7,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 96,
+    "contractName": "nantes",
+    "name": "096-TORTIÈRE",
+    "address": "Pont de la Tortière - boulevard Eugène Orieux",
+    "position": {
+      "latitude": 47.2353352222086,
+      "longitude": -1.54922176680989
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:19Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 0,
+        "stands": 16,
+        "mechanicalBikes": 0,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 16
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 0,
+        "stands": 16,
+        "mechanicalBikes": 0,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 16
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 105,
+    "contractName": "nantes",
+    "name": "105-HANGAR À BANANES",
+    "address": "Boulevard des Antilles - quai Président Wilson - Grue Titan Grise",
+    "position": {
+      "latitude": 47.199408,
+      "longitude": -1.573184
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:08Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 11,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 11,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 107,
+    "contractName": "nantes",
+    "name": "107-MOUTONNERIE",
+    "address": "Rue Francisco Ferrer",
+    "position": {
+      "latitude": 47.219901,
+      "longitude": -1.532947
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:04Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 11,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 11,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 64,
+    "contractName": "nantes",
+    "name": "064-SAINT CLÉMENT",
+    "address": "24, rue du Maréchal Joffre",
+    "position": {
+      "latitude": 47.2217851835226,
+      "longitude": -1.5470992337185
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:43:15Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 8,
+        "stands": 7,
+        "mechanicalBikes": 8,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 54,
+    "contractName": "nantes",
+    "name": "054-CITÉ INTERNATIONALE DES CONGRÈS",
+    "address": "2, rue de Jemmapes - 2, avenue Jean-Claude Bonduelle",
+    "position": {
+      "latitude": 47.2131800855278,
+      "longitude": -1.54495254166858
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:06Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 20,
+        "stands": 14,
+        "mechanicalBikes": 20,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 34
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 20,
+        "stands": 14,
+        "mechanicalBikes": 20,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 34
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 14,
+    "contractName": "nantes",
+    "name": "014-SAINT FÉLIX",
+    "address": "35, Boulevard Amiral Courbet",
+    "position": {
+      "latitude": 47.230334,
+      "longitude": -1.556133
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:12Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 0,
+        "stands": 13,
+        "mechanicalBikes": 0,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 0,
+        "stands": 13,
+        "mechanicalBikes": 0,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 9,
+    "contractName": "nantes",
+    "name": "009-GUÉPIN",
+    "address": "8, rue de l'Arche Sèche",
+    "position": {
+      "latitude": 47.2158145871395,
+      "longitude": -1.55901748516744
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:00Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 11,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 11,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 14
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 28,
+    "contractName": "nantes",
+    "name": "028-ÉDIT DE NANTES",
+    "address": "2, rue de Gigant - Place de l'Edit de Nantes",
+    "position": {
+      "latitude": 47.2144634273858,
+      "longitude": -1.56756801666384
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:43:45Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 6,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 13
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 6,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 13
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 33,
+    "contractName": "nantes",
+    "name": "033-RACINE",
+    "address": "5, rue Racine",
+    "position": {
+      "latitude": 47.2135226137199,
+      "longitude": -1.5631408744314
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:39Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 10,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 4,
+        "stands": 10,
+        "mechanicalBikes": 4,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 60,
+    "contractName": "nantes",
+    "name": "060-GARE DE NANTES NORD",
+    "address": "Rue Stanislas Baudry",
+    "position": {
+      "latitude": 47.219009,
+      "longitude": -1.544071
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:24Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 15,
+        "stands": 24,
+        "mechanicalBikes": 15,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 40
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 15,
+        "stands": 24,
+        "mechanicalBikes": 15,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 40
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 24,
+    "contractName": "nantes",
+    "name": "024-VERSAILLES",
+    "address": "25, quai de Versailles - Ile de Versailles",
+    "position": {
+      "latitude": 47.2245149071911,
+      "longitude": -1.55371196140233
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:43:55Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 6,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 6,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 68,
+    "contractName": "nantes",
+    "name": "068-LIVET",
+    "address": "65, rue Dufour",
+    "position": {
+      "latitude": 47.2240678794875,
+      "longitude": -1.54521243421509
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:46:46Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 5,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 5,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 124,
+    "contractName": "nantes",
+    "name": "124-PAS ENCHANTÉS",
+    "address": "Boulevard des Pas Enchantés - SAINT-SÉBASTIEN-SUR-LOIRE",
+    "position": {
+      "latitude": 47.205239,
+      "longitude": -1.522726
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:51:05Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 15,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 25
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 15,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 25
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 65,
+    "contractName": "nantes",
+    "name": "065-COURS SULLY",
+    "address": "9, cours Sully",
+    "position": {
+      "latitude": 47.2225873399067,
+      "longitude": -1.55166644254598
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:46Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 12,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 2,
+        "stands": 12,
+        "mechanicalBikes": 2,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 114,
+    "contractName": "nantes",
+    "name": "114-ATOUTSUD",
+    "address": "Angle rue de l'Abbé Grégoire - avenue Maréchal de Tassigny - REZÉ",
+    "position": {
+      "latitude": 47.194493,
+      "longitude": -1.570365
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:09Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 16,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 25
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 9,
+        "stands": 16,
+        "mechanicalBikes": 9,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 25
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 69,
+    "contractName": "nantes",
+    "name": "069-MANUFACTURE",
+    "address": "11 bis, boulevard Stalingrad",
+    "position": {
+      "latitude": 47.2192163807113,
+      "longitude": -1.53584744327638
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:45:50Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 11,
+        "stands": 3,
+        "mechanicalBikes": 11,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 11,
+        "stands": 3,
+        "mechanicalBikes": 11,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 13,
+    "contractName": "nantes",
+    "name": "013-BRETAGNE SUD",
+    "address": "3, rue Pierre Chereau",
+    "position": {
+      "latitude": 47.216787949913,
+      "longitude": -1.55916106661899
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:44:14Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 10,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 10,
+        "stands": 10,
+        "mechanicalBikes": 10,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 20
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 36,
+    "contractName": "nantes",
+    "name": "036-ALGER",
+    "address": "10, rue d'Alger",
+    "position": {
+      "latitude": 47.210549,
+      "longitude": -1.567368
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:52:07Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 8,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 7,
+        "stands": 8,
+        "mechanicalBikes": 7,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 15
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 82,
+    "contractName": "nantes",
+    "name": "082-SÉBILLEAU",
+    "address": "120, rue Dr Jules Sébilleau",
+    "position": {
+      "latitude": 47.2067575123084,
+      "longitude": -1.53311824492362
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:48:13Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 13,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 16
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 13,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 16
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 5,
+    "contractName": "nantes",
+    "name": "005-BROSSARD",
+    "address": "12, Allée Duquesne",
+    "position": {
+      "latitude": 47.2188372304694,
+      "longitude": -1.55674926307655
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:50:50Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 12,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 18
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 6,
+        "stands": 12,
+        "mechanicalBikes": 6,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 18
+    },
+    "overflowStands": null
+  },
+  {
+    "number": 6,
+    "contractName": "nantes",
+    "name": "006-PLACE DU CIRQUE",
+    "address": "7, allée Duquesne",
+    "position": {
+      "latitude": 47.217596682406,
+      "longitude": -1.55693764537887
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "lastUpdate": "2021-08-16T13:49:08Z",
+    "connected": true,
+    "overflow": false,
+    "shape": null,
+    "totalStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 18,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "mainStands": {
+      "availabilities": {
+        "bikes": 3,
+        "stands": 18,
+        "mechanicalBikes": 3,
+        "electricalBikes": 0,
+        "electricalInternalBatteryBikes": 0,
+        "electricalRemovableBatteryBikes": 0
+      },
+      "capacity": 21
+    },
+    "overflowStands": null
+  }
+]

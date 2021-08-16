@@ -52,7 +52,7 @@ class MapViewModel @Inject constructor(
         return currentPosition?.let { userPosition ->
             // at least 1 bike, nearest to the current user location
             stations.filter { it.mainStands.availabilities.bikes > 0 }
-                .minBy { distanceFromCurrentLocation(userPosition, it.position) }
+                .minByOrNull { distanceFromCurrentLocation(userPosition, it.position) }
         }
     }
 
@@ -60,7 +60,7 @@ class MapViewModel @Inject constructor(
         return destination?.let { destinationPosition ->
             // at least 1 stand free, nearest to the current user location
             stations.filter { it.mainStands.availabilities.bikes > 0 }
-                .minBy { distanceFromCurrentLocation(destinationPosition, it.position) }
+                .minByOrNull { distanceFromCurrentLocation(destinationPosition, it.position) }
         }
     }
 
