@@ -24,6 +24,8 @@ class MapViewModel @Inject constructor(
     private val repository: BiclooRepository
 ) : BaseViewModel() {
 
+    var initialPosition: LatLng = LatLng(47.2173, -1.5534)
+    var initialZoom: Float = 12f
     var currentPosition: LatLng? = null
     var destination: LatLng? = null
     var stations: List<Station> = listOf()
@@ -50,7 +52,7 @@ class MapViewModel @Inject constructor(
         return currentPosition?.let { userPosition ->
             // at least 1 bike, nearest to the current user location
             stations.filter { it.mainStands.availabilities.bikes > 0 }
-                .minByOrNull { distanceFromCurrentLocation(userPosition, it.position) }
+                .minBy { distanceFromCurrentLocation(userPosition, it.position) }
         }
     }
 
@@ -58,14 +60,11 @@ class MapViewModel @Inject constructor(
         return destination?.let { destinationPosition ->
             // at least 1 stand free, nearest to the current user location
             stations.filter { it.mainStands.availabilities.bikes > 0 }
-                .minByOrNull { distanceFromCurrentLocation(destinationPosition, it.position) }
+                .minBy { distanceFromCurrentLocation(destinationPosition, it.position) }
         }
     }
 
-    private fun distanceFromCurrentLocation(
-        userPosition: LatLng,
-        stationPosition: Position
-    ): Float {
+    private fun distanceFromCurrentLocation(userPosition: LatLng, stationPosition: Position): Float {
         val locationA = Location("").apply {
             latitude = userPosition.latitude
             longitude = userPosition.longitude

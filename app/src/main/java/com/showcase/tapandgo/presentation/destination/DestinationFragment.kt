@@ -24,8 +24,12 @@ import java.util.*
 
 @AndroidEntryPoint
 class DestinationFragment :
-    BaseFragment<DestinationViewModel, FragmentDestinationBinding>(R.layout.fragment_destination),
-    OnMapReadyCallback {
+    BaseFragment<DestinationViewModel, FragmentDestinationBinding>(R.layout.fragment_destination), OnMapReadyCallback {
+
+    companion object {
+        // map padding on center bound
+        private const val PADDING: Int = 128
+    }
 
     override val viewModel: DestinationViewModel by viewModels()
     private val arguments: DestinationFragmentArgs by navArgs()
@@ -86,7 +90,7 @@ class DestinationFragment :
         val builder = LatLngBounds.Builder()
         markers.forEach { builder.include(it.value) }
         val bounds = builder.build()
-        val cu = CameraUpdateFactory.newLatLngBounds(bounds, 128)
+        val cu = CameraUpdateFactory.newLatLngBounds(bounds, PADDING)
         map.animateCamera(cu)
     }
 

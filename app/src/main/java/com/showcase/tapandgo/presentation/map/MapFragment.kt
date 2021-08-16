@@ -19,6 +19,7 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.maps.android.clustering.Cluster
 import com.google.maps.android.clustering.ClusterManager
@@ -34,15 +35,13 @@ import com.showcase.tapandgo.presentation.map.cluster.MarkerClusterItem
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.*
 
-@AndroidEntryPoint
-class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.fragment_map),
-    OnMapReadyCallback {
 
-    private val permissionRequest by lazy {
-        permissionsBuilder(
-            Manifest.permission.ACCESS_FINE_LOCATION,
-            Manifest.permission.ACCESS_COARSE_LOCATION
-        ).build()
+@AndroidEntryPoint
+class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.fragment_map), OnMapReadyCallback {
+
+    companion object {
+        // map padding on center bound
+        private const val PADDING: Int = 128
     }
 
     override val viewModel: MapViewModel by viewModels()
@@ -53,6 +52,13 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private lateinit var lastLocation: Location
 
+    private val permissionRequest by lazy {
+        permissionsBuilder(
+            Manifest.permission.ACCESS_FINE_LOCATION,
+            Manifest.permission.ACCESS_COARSE_LOCATION
+        ).build()
+    }
+
     override fun onInit() {
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(requireActivity())
 
@@ -62,17 +68,26 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
 
     override fun onMapReady(googleMap: GoogleMap) {
         initMap(googleMap)
-
-        // if permissions are granted, center on user location now
-        onPermissionsResult(permissionRequest.checkStatus())
         initCenterOnUserButton()
         initSmartDestinationButton()
         fetchStations()
+
+        // if permissions are granted, center on user location now
+        if (permissionRequest.checkStatus().allGranted()) {
+            centerOnUserLocation()
+        } else {
+            centerOnCity()
+        }
     }
 
     private fun initSmartDestinationButton() {
-        permissionRequest.send()
-        binding.smartDestination.setOnClickListener { openDialog() }
+        binding.smartDestination.setOnClickListener {
+            if (permissionRequest.checkStatus().allGranted()) {
+                openDestinationDialog();
+            } else {
+                permissionRequest.send()
+            }
+        }
     }
 
     private fun initMap(googleMap: GoogleMap) {
@@ -106,7 +121,7 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
     private fun onLongMapClick(latLng: LatLng) {
         val geocoder = Geocoder(context, Locale.getDefault())
         val address = geocoder.getFromLocation(latLng.latitude, latLng.longitude, 1).firstOrNull()
-        openDialog(address?.getAddressLine(0))
+        openDestinationDialog(address?.getAddressLine(0))
     }
 
     private fun onMapClick() {
@@ -119,7 +134,15 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
     }
 
     private fun onClusterClick(cluster: Cluster<MarkerClusterItem>): Boolean {
-        return false
+        val builder = LatLngBounds.builder()
+        cluster.items.forEach {
+            builder.include(LatLng(it.latLng.latitude, it.latLng.longitude))
+        }
+        val bounds = builder.build()
+
+        map.animateCamera(CameraUpdateFactory.newLatLngBounds(bounds, PADDING))
+
+        return true
     }
 
     private fun onSuccess(uiModel: Any) {
@@ -169,20 +192,7 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
         }
     }
 
-    @SuppressLint("MissingPermission")
-    private fun centerOnUserLocation() {
-        map.isMyLocationEnabled = true
-        fusedLocationClient.lastLocation.addOnSuccessListener { location ->
-            location?.let {
-                lastLocation = location
-                val currentLatLng = LatLng(location.latitude, location.longitude)
-                viewModel.currentPosition = LatLng(location.latitude, location.longitude)
-                map.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLatLng, 16f))
-            }
-        }
-    }
-
-    private fun openDialog(prefill: String? = null) {
+    private fun openDestinationDialog(prefill: String? = null) {
         val builder = AlertDialog.Builder(requireContext())
         builder.setTitle("Votre destination")
         val view = ViewDialogInputBinding.inflate(layoutInflater, null, false)
@@ -223,9 +233,28 @@ class MapFragment : BaseFragment<MapViewModel, FragmentMapBinding>(R.layout.frag
         }
     }
 
+    @SuppressLint("MissingPermission")
+    private fun centerOnUserLocation() {
+        map.isMyLocationEnabled = true
+        fusedLocationClient.lastLocation.addOnSuccessListener { location ->
+            location?.let {
+                lastLocation = location
+                val currentLatLng = LatLng(location.latitude, location.longitude)
+                viewModel.currentPosition = LatLng(location.latitude, location.longitude)
+                map.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLatLng, 16f))
+            }
+        }
+    }
+
+    private fun centerOnCity() {
+        map.animateCamera(CameraUpdateFactory.newLatLngZoom(viewModel.initialPosition, viewModel.initialZoom))
+    }
+
     private fun onPermissionsResult(result: List<PermissionStatus>) {
         if (result.allGranted()) {
             centerOnUserLocation()
+        } else {
+            centerOnCity()
         }
     }
 }
