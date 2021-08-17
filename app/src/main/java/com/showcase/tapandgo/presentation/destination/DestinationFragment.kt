@@ -13,7 +13,9 @@ import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.maps.android.clustering.ClusterManager
 import com.showcase.tapandgo.R
+import com.showcase.tapandgo.base.ApplicationError
 import com.showcase.tapandgo.base.BaseFragment
+import com.showcase.tapandgo.base.BaseUiModel
 import com.showcase.tapandgo.data.repository.dto.Position
 import com.showcase.tapandgo.databinding.FragmentDestinationBinding
 import com.showcase.tapandgo.presentation.map.cluster.ClusterRenderer
@@ -24,7 +26,7 @@ import java.util.*
 
 @AndroidEntryPoint
 class DestinationFragment :
-    BaseFragment<DestinationViewModel, FragmentDestinationBinding>(R.layout.fragment_destination), OnMapReadyCallback {
+    BaseFragment<DestinationViewModel, FragmentDestinationBinding, BaseUiModel>(R.layout.fragment_destination), OnMapReadyCallback {
 
     companion object {
         // map padding on center bound
@@ -101,6 +103,12 @@ class DestinationFragment :
             pickupStation.text = arguments.stationDeparture.name
             dropoffStation.text = arguments.stationsArrival.name
         }
+    }
+
+    override fun onSuccess(uiModel: BaseUiModel) {
+    }
+
+    override fun onError(error: ApplicationError) {
     }
 }
 

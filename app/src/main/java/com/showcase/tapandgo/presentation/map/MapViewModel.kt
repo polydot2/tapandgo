@@ -1,7 +1,7 @@
 package com.showcase.tapandgo.presentation.map
 
 import android.location.Location
-import androidx.lifecycle.liveData
+import androidx.lifecycle.viewModelScope
 import com.google.android.gms.maps.model.LatLng
 import com.showcase.tapandgo.base.ApplicationError
 import com.showcase.tapandgo.base.BaseUiModel
@@ -15,6 +15,7 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.onStart
+import kotlinx.coroutines.launch
 import timber.log.Timber
 import javax.inject.Inject
 
@@ -31,20 +32,18 @@ class MapViewModel @Inject constructor(
     var stations: List<Station> = listOf()
 
     fun retrieveBiclooLocations() {
-        _uiState.addSource(liveData(dispatcher) {
+        viewModelScope.launch(dispatcher) {
             repository.getStationsByContract()
                 .onStart {
-                    emit(UiState.Loading)
+                    _uiState.emit(UiState.Loading)
                 }.catch { e ->
                     Timber.e(e)
-                    emit(UiState.Error(ApplicationError("Oups something went wrong")))
+                    _uiState.emit(UiState.Error(ApplicationError("Oups something went wrong")))
                 }
-                .collect {
+                .collect    {
                     stations = it
-                    emit(UiState.Success(MapFragmentUiModel(it)))
+                    _uiState.emit(UiState.Success(MapFragmentUiModel(it)))
                 }
-        }) {
-            _uiState.postValue(it)
         }
     }
 
